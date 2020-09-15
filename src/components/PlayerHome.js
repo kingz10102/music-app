@@ -1,9 +1,15 @@
-import React from 'react'
+import React from 'react';
+import '../css/PlayerHome.css';
+import SidebarList from './SidebarList';
+import Body from './Body';
 
-function PlayerHome() {
+function PlayerHome({spotify}) {
     return (
-        <div>
-            
+        <div className="playerHome">
+            <div className="playerHome__body">
+                <SidebarList/>
+            </div>
+           
         </div>
     )
 }

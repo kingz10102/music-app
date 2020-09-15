@@ -37,17 +37,13 @@ useEffect(() => {
     });
   }
 
-  console.log("I have a token:", token);
 }, [])
-
-console.log(user);
-console.log(token);
 
   return (
     <div className="app">
       {
         token ?(
-          <PlayerHome/>
+          <PlayerHome spotify={spotify}/>
         ) : (
           <Login/>
         )

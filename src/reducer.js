@@ -5,7 +5,8 @@ export const initialState = {
     user: null,
     playlists: [],
     //2:14
-    
+    token:    "BQB4xBEKz0fAwzZGnKOG6kO8GDJ4mAw84p1iqJEZGXPXG2gmT8u09q8CnL4AQbeb0qPti2xYuR6MVqG8F2wIT8QjTb5H2f7zMFtCEqzDxDVCUr-7yfjbq54fQBSaFl2WrOMndRs-VGiR0Vr0ZmO5DArCPbUlLa81",
+
     item: null,
     playing: false
 };
