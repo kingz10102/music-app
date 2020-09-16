@@ -1,0 +1,35 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Ranchers&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Ranchers&display=swap');
+.sidebarList {
+    height: 100vh;
+    flex: 0.2;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    min-width: 230px;
+    color: white;
+    background-color:#032859;
+}
+.sidebarList__title {
+    font-family: 'Hanalei', cursive;
+    color: blanchedalmond;
+    height: 70px;
+    object-fit: contain;
+    margin-right: auto;
+    letter-spacing: 1px;
+}
+
+.sidebarList__playlistHead {
+    margin-left: 11px;
+    padding: 5px;
+    font-size: 14px;
+    font-family: 'Hanalei', cursive;
+}
+
+.sidebarList > hr {
+    border: 1px solid #263d4b;
+    width: 90%;
+    margin: 10px auto;
+}

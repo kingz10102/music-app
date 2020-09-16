@@ -1,0 +1,9 @@
+.body {
+
+    flex: 0.8;
+    height: 100vh;
+    color: white;
+    padding: 30px;
+    /* background-image: linear-gradient(to right, #102c55, #5D8AA6); */
+    background: radial-gradient( #8fe1ff, #0f0130);
+}

@@ -35,9 +35,16 @@ useEffect(() => {
         user: user
       });
     });
-  }
 
-}, [])
+    // getting user playlist
+    spotify.getUserPlaylists().then((playlists) => {
+      dispatch({
+        type: "SET_PLAYLISTS",
+        playlists:playlists,
+      });
+    });
+  }
+}, [token, dispatch]);
 
   return (
     <div className="app">
